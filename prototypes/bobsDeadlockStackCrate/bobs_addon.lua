@@ -1,5 +1,5 @@
 --stacking
-if mods["DeadlockStacking"] then
+if deadlock_stacking then
 	--Bobs ores
 	if data.raw["item"]["bauxite-ore"] then 
 		deadlock_stacking.create("bauxite-ore", "__morebobs__/graphics/icons/stacking/ores/bob/bauxite-ore.png", "deadlock-stacking-1", 32)

@@ -1,5 +1,5 @@
 --stacking
-if mods["DeadlockStacking"] then	
+if deadlock_stacking then	
 	--Circuits Redux
 	if mods["ShinyBobGFX"] then
 		if settings.startup["replace-circuits"] and settings.startup["replace-circuits"].value == true then

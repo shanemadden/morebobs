@@ -1,5 +1,5 @@
 --stacking
-if mods["DeadlockStacking"] then
+if deadlock_stacking then
 	--KAO extended
 	if data.raw["item"]["advanced-structure-components"] then
 		deadlock_stacking.create("advanced-structure-components", "__morebobs__/graphics/icons/stacking/kao/stacked-advancedSC.png", "deadlock-stacking-3", 32)

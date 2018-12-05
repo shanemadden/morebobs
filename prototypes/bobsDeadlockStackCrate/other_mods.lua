@@ -1,5 +1,5 @@
 --stacking
-if mods["DeadlockStacking"] then
+if deadlock_stacking then
 	--AAI
 	if data.raw["item"]["wooden-gear"] then
 		deadlock_stacking.create("wooden-gear", "__morebobs__/graphics/icons/stacking/gearbearing/wood-gear.png", "deadlock-stacking-1", 32)
